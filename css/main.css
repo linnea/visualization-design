@@ -1,0 +1,9 @@
+.vis {
+    float: right;
+    width: 50%;
+}
+
+.desc {
+    width: 50%;
+    float: left;
+}
