@@ -1,0 +1,20 @@
+Bacteria ,Penicilin,Streptomycin ,Neomycin,Gram Staining ,Avg min Antibiotic it takes (bacteria strength),median amt of antibiotics needed
+Aerobacter aerogenes,870,1,1.6,negative,290.8666667,1.6
+Brucella abortus,1,2,0.02,negative,1.006666667,1
+Brucella anthracis,0.001,0.01,0.007,positive,0.006,0.007
+Diplococcus pneumoniae,0.005,11,10,positive,7.001666667,10
+Escherichia coli,100,0.4,0.1,negative,33.5,0.4
+Klebsiella pneumoniae,850,1.2,1,negative,284.0666667,1.2
+Mycobacterium tuberculosis,800,5,2,negative,269,5
+Proteus vulgaris,3,0.1,0.1,negative,1.066666667,0.1
+Pseudomonas aeruginosa ,850,2,0.4,negative,284.1333333,2
+Salmonella (Eberthella) typhosa ,1,0.4,0.008,negative,0.469333333,0.4
+Salmonella schottmuelleri ,10,0.8,0.09,negative,3.63,0.8
+Staphylococcus albus ,0.007,0.1,0.001,positive,0.036,0.007
+Staphylococcus aureus ,0.03,0.03,0.001,positive,0.020333333,0.03
+Streptococcus fecalis ,1,1,0.1,positive,0.7,1
+Streptococcus hemolyticus ,0.001,14,10,positive,8.000333333,10
+Streptococcus viridans,0.005,10,40,positive,16.66833333,10
+,,,,,,
+Average ,217.8780625,3.065,4.0891875,,,
+Median,1,1,0.1,,,

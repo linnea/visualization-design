@@ -1,9 +1,13 @@
 .vis {
     float: right;
-    width: 50%;
+    width: 70%;
 }
 
 .desc {
-    width: 50%;
+    width: 30%;
     float: left;
+}
+
+#vis-1 {
+    height: 700px;
 }
