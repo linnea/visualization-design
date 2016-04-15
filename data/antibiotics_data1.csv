@@ -1,4 +1,4 @@
-Bacteria ,Penicilin,Streptomycin ,Neomycin,Gram Staining ,Avg min Antibiotic it takes (bacteria strength),median amt of antibiotics needed
+Bacteria,Penicilin,Streptomycin,Neomycin,Gram_stain,Avg_MIC,median_MIC
 Aerobacter aerogenes,870,1,1.6,negative,290.8666667,1.6
 Brucella abortus,1,2,0.02,negative,1.006666667,1
 Brucella anthracis,0.001,0.01,0.007,positive,0.006,0.007
@@ -15,6 +15,3 @@ Staphylococcus aureus ,0.03,0.03,0.001,positive,0.020333333,0.03
 Streptococcus fecalis ,1,1,0.1,positive,0.7,1
 Streptococcus hemolyticus ,0.001,14,10,positive,8.000333333,10
 Streptococcus viridans,0.005,10,40,positive,16.66833333,10
-,,,,,,
-Average ,217.8780625,3.065,4.0891875,,,
-Median,1,1,0.1,,,

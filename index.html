@@ -18,36 +18,53 @@
 <body>
     <div class="container">
         <div class="row">
+            <h1>Visualization 1</h1>
+            <div id="vis-1" class="vis-1 vis">
+                <div class="vis-1-legend">
+                   <div class="neg legend-item"></div> Negative <br />
+                <div class="pos legend-item"></div> Positive
+                </div>
+            </div>
             <div class="desc">
-                <h1>Visualization 1</h1>
-                <h3>Question: </h3> Is there a correlation between positive or negative gram staining and quantity of antibiotic needed?
+                
+                <h3>Question: </h3> Is there a correlation between antibiotic effectiveness and whether the bacteria is gram stained negative or positive?
                 <h3>Description: </h3>
                 <p>In this graph I decided to analyze the correlation between gram staining and minimum inhibitory concentration (MIC). I wanted to know if an antibiotic was more or less effective on a bacteria depending on whether it had a positive or negative gram stain. In this visualization, I used color encoding, direction, slope, position on a common scale, and connectedness.</p> 
-                <p> </p> 
-            </div>
-            <div id="vis-1" class="vis-1 vis">
-                
+                <p> For the color encoding, I chose to use Violet and Magenta, as they are the actual colors that relate to gram staining for positive and negative gram stain results. Positive staining relates to violet, and negative staining is shown by magenta. In this example, there didn't seem to be a correlation between positive and negative gram stains except for the antibiotic Penicilin. The bacteria which required the most penicilin to inhibit bacteria growth all had a positive gram stain. </p>
+                <p> I graphed this as a line chart because I wanted to show the relative strength of each antibiotic on a bacterial strain. By connecting these amounts in relation to their bacteria, you are able to pinpoint a bacteria and see which antibiotic is the most and least effective. By categorizing by antibiotic and not bacteria, you get a broader view of the effect of the antibiotic as a whole. This graph is not intended for specific bacteria MIC values, but uses connectednes, slope, and direction to give the user a more general idea of the strength of the antibiotic overall, and which antibiotic is most effective on a particular bacteria. 
             </div>
         </div>
          <div class="row">
              <div class="desc">
                 <h1>Visualization 2</h1>
-                <h2>Description: </h2>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat rem, et quisquam earum quos. A modi ex nam porro, rem quos quam dolor amet provident repudiandae odio iste voluptates, harum?
-             </div>
-            <div id="vis-2" class="vis-2 vis">
+                <div id="vis-2" class="vis-2 vis">
                 
             </div>
+                <h3>Question:</h3>
+                <p>Which antibiotic is generally the most potent? </p>
+                <h3>Description: </h3>
+                <p>With this visualization I wanted the user to be able to tell which antibiotic was the most potent (lowest minimum inhibitory concentration). I used a grouped bar chart to compare the MIC's of each bacteria, and included a horizontal line that represents the average MIC for each antibiotic. On hover you can also see the ranked order of each bacteria alongside the average for each antibiotic. </p>
+                <p>I'm using color to represent each antibiotic, so you can compare the averages of each antibiotic, as well as the distance between the average for each bacteria. Position on a constant scale shows each bacteria's MIC. You can click to disable any of the traces for a closer view for any one antibiotic type. </p>
+                <p>Here you can see immediately that Penicilin is the least potent on average, and which strains of bacteria are resistant towards it. The distance between the average lines and the bar chart items also show the difference from the average antibiotic potency, which gives you a better understanding of how the bacteria holds up as a whole.</p>
+             </div>
+            
         </div>
          <div class="row">
+          
              <div class="desc">
                 <h1>Visualization 3</h1>
-                <h2>Description: </h2>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat rem, et quisquam earum quos. A modi ex nam porro, rem quos quam dolor amet provident repudiandae odio iste voluptates, harum?
-            </div>  
-            <div class="vis-3 vis">
+                
+            <div id="vis-3" class="vis-3 vis">
                 
             </div>
+                <h3>Question:</h3>
+                <p>Which bacteria is the most resilient?</p>
+                <h2>Description: </h2>
+                <p>For this visualization I wanted to show the specific vulnerabilities, as well as the bacteria's overall resistance to the antibiotic. I used hue/contrast to highlight values greater than or equal to 1 so that the user could easily see how much that particular bacterial strain resisted to the bacteria. This way, the user could easily pick out which bacteria strains resisted a certain antibiotic.</p>
+                <p>The scale also shows the relative strength through color, the more red the color is the higher the MIC needed for that strain. Red is a great indication of the outlier, as it shows how drastically different the quantity of Penicilin needed for some strains of bacteria is. I wish I could have adjusted the scale more so that the smaller changes for Neomycin and Streptomycin were more easily recognized, but this visualization gives a good visual portrayal of how everything is mainly in low qualities, except for some large Penicilin outliers. </p>
+                <p>You can also easily compare each bacteria and each antibiotic by looking vertically or horizontally across the chart. The hover effects provide an easy way to target a specific bacteria and antibiotic without having to get lost on comparing position on the axis. The main purpose of this visualization was to describe which bacteria was most resilient, and you can easily see the resiliency by the higher, white numbers and color differentials.</p>
+                <p></p>
+            </div>  
         </div>
     </div>
 </body>

@@ -1,13 +1,28 @@
-.vis {
-    float: right;
-    width: 70%;
-}
-
-.desc {
-    width: 30%;
-    float: left;
-}
 
 #vis-1 {
     height: 700px;
+    position: relative;
+}
+
+.vis-1-legend {
+    margin-left: 500px;
+}
+
+.legend-item {
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+}
+
+.neg {
+    background-color: rgb(223, 74, 187);
+}
+
+.pos {
+    background-color: rgb(115, 55, 182);
+}
+
+
+#vis-3, #vis-2 {
+    height: 650px;
 }
